@@ -22,7 +22,7 @@ const App = () => {
   return (
     <div className="main">
         {/* Do not remove the main div */}
-        <h1>To-Do List</h1>
+        <h1>To-D0 List</h1>
         <input type="text" value={newTodo} onChange={(e)=>setNewTodo(e.target.value)}  />
         <button onClick={addTodo}>Add Todo</button>
         <ul>
