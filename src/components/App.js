@@ -30,7 +30,7 @@ const App = () => {
           todos.map((element,index)=>(
             <li key={index}>
               <div>{element}</div>
-              <button onClick={()=>removeTodo(index)}>Delete</button>
+              <button onClick={()=>removeTodo(index)}></button>
             </li>
           ))
         }
